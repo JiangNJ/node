@@ -1,2 +1,18 @@
 # node
-åœ¨çº¿ä¾¿åˆ©è´´
+
+
+ÕâÊÇÒ»¸ö±ãÀûÌùÍøÕ¾
+
+ÕâÊÇÒ»¸ö¼òµ¥µÄ¸öÈË±ãÀûÌùÍøÕ¾£¬Ö§³ÖÌí¼Ó£¬ÐÞ¸Ä£¬É¾³ý¹¦ÄÜ£¬Ö§³Ö±ãÀûÌùµÄËæÒâÍÏ¶¯£¬ÓµÓÐÊý¾Ý¿â¡£
+
+Ê¹ÓÃ²½Öè£¨Ê×ÏÈÈ·±£ÒÑ¾­°²×°ÁËnode.js£©
+
+1. git clone git@github.com:JiangNJ/node.git
+2. cd note
+3. npm start
+4. ÔÚä¯ÀÀÆ÷µÄµØÖ·À¸ÊäÈëlocalhost:3000
+5. ÍË³öÔÚÃüÁîÐÐ¹¤¾ßÖÐÊäÈëctrl+c
+
+Ê¹ÓÃexpress¿ò¼Ü´î½¨Õû¸öÍøÕ¾µÄ½á¹¹£¬¹¤³Ì»¯Ê¹ÓÃÁËwebpack£¬±àÐ´´úÂëÔËÓÃÁËÃæÏò¶ÔÏóºÍÄ£¿é»¯µÄ·½Ê½ÈÃ´úÂëÖ®¼äµÄñîºÏÐÔ¼õÉÙ£¬Ìá¸ß¸´ÓÃÐÔ£¬¿âÊ¹ÓÃÁËjQuery£¬Êý¾Ý¿âÑ¡ÓÃÁËsequelize£¬²¼¾ÖÊ¹ÓÃÁËÆÙ²¼Á÷²¼¾Ö£¬Í¨¹ý¼àÌýÐÞ¸Ä£¬Ìí¼Ó£¬É¾³ý±ãÀûÌùµÄ²Ù×÷Ïò¶ÔÓ¦µÄÂ·ÓÉ·¢ËÍÊý¾ÝÊµÏÖÊý¾Ý¿âµÄ¸üÐÂ£¬Í¨¹ýÊ¹ÓÃ·¢²¼¶©ÔÄÄ£Ê½µÄË¼Â·ÊµÏÖÒ»¸öÊÂ¼þÖÐÐÄµÄÄ£¿é£¬À´¼àÌýÌí¼Ó£¬É¾³ý£¬ÐÞ¸Ä±ãÀûÌùµÄ²Ù×÷ÊµÏÖ×Ô¶¯ÆÙ²¼Á÷²¼¾ÖºÍ¶ÔÓ¦µÄÌáÊ¾¡£±ãÀûÌùµÄÑùÊ½Ê¹ÓÃÁËcss3µÄtransform¶ÔÎ±ÔªËØÔªËØ½øÐÐËõ·ÅÐý×ª£¬border-radius½«Ô²½Ç¸Ä±ä£¬ÔÙÅäºÏÒõÓ°ÊµÏÖ±ãÀûÌùµÄÍâ·­¾í½ÅÐ§¹û£¬ÎÄ±¾ÊäÈëÇøÓòÊ¹ÓÃÁËtextarea´úÌæÁËcontentEditableÊôÐÔ¡£
+
+ÔÚ×öÕâ¸öÏîÄ¿µÄÊ±ºò£¬Åöµ½µÄÎÊÌâÓÐ£ºÔÚÎÄ±¾ÊäÈëÇøÓòÊ¹ÓÃHTML5µÄÈ«¾ÖÊôÐÔcontentEditableºó·¢ÏÖÏòÊý¾Ý¿âÌá½»ÐÞ¸ÄµÄÄÚÈÝÊ±£¬ÎÞ·¨±£´æ»»ÐÐ£¬Ö»ÓÐ½«htmlÌá½»²ÅÄÜ´ïµ½±£´æ»»ÐÐÐ§¹û£¬ËùÒÔÎÒÓÃÁËtextareaÔªËØ´úÌæcontentEditableÊôÐÔ£¬È»ºó½«textareaÔªËØµÄÄ¬ÈÏÑùÊ½È¥³ý£¬ÔÙ¼àÌýÊäÈëÊÂ¼þ£¬Í¬²½µÄ½«textareaÔªËØ¸ß¶È¸Ä±ä£¬ÕâÑù¾Í±ÜÃâ³öÏÖ¹ö¶¯Ìõ£¬Ò²ÄÜ´ïµ½±£´æÎÄ±¾ÊäÈëµÄ¸ñÊ½¡£»¹ÓÐ¾ÍÊÇÔ­±¾Ò³ÃæÃ»ÓÐµÄÔªËØ£¬ÐÂÔöºóÎÞ·¨°ó¶¨ÊÂ¼þ£¬×îºóÍ¨¹ý½«ÊÂ¼þ°ó¶¨ÔÚdocumentÉÏ£¬Í¨¹ýÊÂ¼þ²¶»ñÕÒµ½ÐÂÔöÔªËØ½â¾ö£¬¶Ôborder-radiusµÄÊ¹ÓÃÓÐÁËÐÂµÄÀí½â£¬Ö»ÒªÁé»îÔËÓÃ¾Í¿ÉÒÔÊµÏÖÒ»ÖÖÍâ·­¾í½ÅµÄÊÓ¾õÐ§¹û£¬¸ÃÏîÄ¿Ö÷ÒªÈÃÎÒ¶ÔexpressµÄÊ¹ÓÃºÍÇ°ºó¶ËÖ®¼äµÄÐ­×÷£¬Êý¾Ý¿âµÄÊ¹ÓÃÓÐÁË¸üºÃµÄÈÏÊ¶ºÍÀí½â£¬ÓÉÓÚ¸ÃÏîÄ¿ÓÐÂ·ÓÉºÍÖÐ¼ä¼þµÄÅäÖÃ£¬ËùÒÔÈÃÎÒ¸ü¼ÓÇåÎúµÄÁË½âµ½ºó¶Ë´¦ÀíÇëÇóµÄÂß¼­ÒÔ¼°ºÍºó¶ËÐ­×÷ÐèÒªÔ¼¶¨µÄ¹æÔò¡£±È½ÏÒÅº¶µÄ¾ÍÊÇÃ»ÓÐ·¢²¼ÉÏÏß£¬Ö»ÊÇ½«ÏîÄ¿Ìá½»µ½ÁËgithubÉÏ£¬ÎªÁË±ÜÃâÍ¨¹ýnpm°²×°ÒÀÀµÄ£¿é³öÏÖÎÊÌâ£¬½«ËùÓÐµÄÄ£¿é¶¼Ìá½»ÉÏÀ´ÁË£¬ËùÒÔÕû¸öÎÄ¼þÓÐÐ©´ó¡£

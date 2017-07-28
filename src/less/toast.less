@@ -1,0 +1,70 @@
+
+
+        @t: transparent;
+        @s: solid;
+        @w: 20px;
+        
+        .toast {
+            border: 5px solid rgba(50, 50, 50, 1);
+            background-color: white;
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            padding: 20px;
+            border-radius: 20px;
+            font-family: '微软雅黑';
+            color: rgb(152, 153, 534);
+            opacity: 0;
+            &:before,&:after{
+                content: '';
+                position: absolute;
+                top: 38px;
+            }
+            &:before{
+                border-left: @w @s white;
+                border-right: @w @s transparent;
+                border-bottom: @w @s transparent;
+                border-top: @w @s transparent;               
+            }
+            &:after {
+                border-left: @w @s transparent;
+                border-right: @w @s rgba(50, 50, 50, 1);
+                border-bottom: @w @s transparent;
+                border-top: @w @s transparent;
+                z-index: -1;
+                top: 39px;
+                left: -4px; 
+                transform: rotate(45deg);               
+            }
+        }
+        
+
+        
+        // .toast:before {
+        //     border-left: @w @s white;
+        //     border-right: @w @s transparent;
+        //     border-bottom: @w @s transparent;
+        //     border-top: @w @s transparent;
+        // }
+        
+        // .toast:after {
+        //     border-left: @w+5 @s rgba(50, 50, 50, 1);
+        //     border-right: @w+5 @s transparent;
+        //     border-bottom: @w+5 @s transparent;
+        //     border-top: @w+5 @s transparent;
+        //     z-index: -1;
+        //     left: 16px;
+        // }
+
+
+
+
+
+
+
+
+
+
+
+
+
