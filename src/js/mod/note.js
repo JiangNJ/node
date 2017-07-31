@@ -47,7 +47,7 @@ Note.prototype = {
 
 
     createNote: function() {
-        var note = '<div class="note"><div class="info"><div class="time">2017-2-3 10:20</div>'
+        var note = '<div class="note"><div class="info"><div class="time">2017-7-3 10:20</div>'
         note += '<i class="iconfont icon delete">&#xe61c;</i></div>'
         note += '<div class="content" contenteditable="true"></div></div>'
         var reg = /^2.+\d{2}:\d{2}:/
@@ -131,7 +131,7 @@ Note.prototype = {
 
     add: function(msg) {
         var _this = this
-        $.post('/api/add', {
+        $.post('/add', {
                 note: msg
             })
             .done(function(ret) {
